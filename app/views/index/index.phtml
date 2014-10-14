@@ -1,0 +1,8 @@
+Resultado da view index.phtml
+<br /><br /><br />
+
+<ul>
+    <?php foreach( $this->view->artigo as $dados ): ?>
+    <li><?php echo $dados['nome']; ?></li>
+    <?php endforeach; ?>
+</ul>

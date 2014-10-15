@@ -9,6 +9,8 @@
     $classloader->register();
     
     $bootstrap = new app\Init;
+
+    // ;-)
     
     
 
